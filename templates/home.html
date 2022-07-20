@@ -1,0 +1,7 @@
+{% extends 'base.html' %} {% block content %}
+<h2>
+  You can go to the
+  <a href="{% url 'movies:index' %}">Movies List</a>
+</h2>
+<h5>The api url is at: /api/movies</h5>
+{% endblock %}
